@@ -3,9 +3,18 @@
 
   <head>
     <style>
+    .parallax-container {
+      height: 1000px;
+      width: auto;
+    }
     b#logo{
       font-family: 'Pacifico', cursive;
       font-weight: bolder;
+    }
+    p{
+      font-family: 'Roboto';
+      font-size: 13pt;
+      font-weight: 400;
     }
     </style>
   <title>Bloguinho</title>
@@ -30,7 +39,9 @@
      </ul>
    </div>
  </nav>
-
+ <div class="parallax-container">
+   <div class="parallax"><img src="img/cereja.jpg"></div>
+ </div>
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
     <br><br>
@@ -61,8 +72,10 @@
     </div>
   </div>
 </div>
-
-  <div class="divider"></div>
+<div class="parallax-container">
+  <div class="parallax"><img src="img/outono.jpg"></div>
+</div>
+<div class="divider"></div>
   <div class="container">
     <div class="section">
       <div class="row">
@@ -81,8 +94,10 @@
         </div>
       </div>
     </div>
-  </div>
-
+</div>
+<div class="parallax-container">
+  <div class="parallax"><img src="img/rosas.jpg"></div>
+</div>
   <div class="divider"></div>
   <div class="container">
     <div class="section">
@@ -134,6 +149,10 @@
   <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.parallax').parallax();
+      });</script>
   </body>
 
 <html>
