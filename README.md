@@ -1,7 +1,7 @@
 # Bloguinho
 
-###CLOSED (No ideas for now =/)
-
-Blog generico para aprender Materialize
+Blog generico para testar Materialize
 
 http://degrecci.github.io/Bloguinho/
+
+:rotating_light:
