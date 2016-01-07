@@ -33,14 +33,14 @@
  <nav>
 <div class="nav-wrapper red darken-4">
     <div class="nav-wrapper container">
-    <a href="index.html" class="brand-logo"><span class="grey-text text-darken-4"><b id="logo">Bloguinho</b></span></a>
+    <a href="index.html" class="brand-logo grey-text text-darken-4"><b id="logo">Bloguinho</b></a>
     <ul class="right hide-on-med-and-down">
-      <li><a href="index.html"><span class="grey-text text-darken-4"><i class="tiny material-icons">grade</i></span></a></li>
-      <li><a href="index.html"><span class="grey-text text-darken-4"><i class="tiny material-icons">code</i></span></a></li>
+      <li><a href="index.html" class="grey-text text-darken-4"><i class="tiny material-icons">grade</i></a></li>
+      <li><a href="index.html" class="grey-text text-darken-4"><i class="tiny material-icons">code</i></a></li>
     </ul>
-    <ul id="slide-out" class="side-nav">
-      <li><a href="index.html"><span class="grey-text text-darken-4"><i class="tiny material-icons">grade</i></span></a></li>
-      <li><a href="index.html"><span class="grey-text text-darken-4"><i class="tiny material-icons">code</i></span></a></li>
+    <ul id="slide-out" class="side-nav red darken-4">
+      <li><a href="index.html" class="grey-text text-darken-4"><i class="tiny material-icons">grade</i></a></li>
+      <li><a href="index.html" class="grey-text text-darken-4"><i class="tiny material-icons">code</i></a></li>
     </ul>
      <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
   </div>
@@ -164,17 +164,8 @@
 
       //SideNAV-------------------------------
 
-      // Initialize collapse button
       $(".button-collapse").sideNav();
-      // Initialize collapsible (uncomment the line below if you use the dropdown variation)
-      //$('.collapsible').collapsible();
 
-      $('.button-collapse').sideNav({
-          menuWidth: 240, // Default is 240
-          edge: 'right', // Choose the horizontal origin
-          closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-        }
-      );
       </script>
   </body>
 
